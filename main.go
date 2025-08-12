@@ -120,7 +120,7 @@ func downloadFiles(sourceDir, targetDir string) {
 func main() {
 
 	//select run command
-	if len(os.Args) > 0 || len(os.Args) > 4 {
+	if len(os.Args) > 0  {
 		flag := os.Args[1]
 		if flag == "-u" && len(os.Args) == 3 {
 			uploadFiles(os.Args[2])
