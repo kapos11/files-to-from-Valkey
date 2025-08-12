@@ -16,7 +16,9 @@ and **download** files stored in Valkey back to your local machine.
 
 ## Build the project:
 
+-valkey-server (to run valkey server)
 - go build -o copy-dir
+
 
 ## HOW TO USE
 1️- Upload files from a local directory to Valkey
