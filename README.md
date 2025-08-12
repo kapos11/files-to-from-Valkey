@@ -8,7 +8,7 @@ and **download** files stored in Valkey back to your local machine.
 - **Download** files from Valkey to a local folder.
 
 ##  Requirements
-- **Go** (version 1.18 or higher).
+- **Go** (version 1.23 or higher).
 - Running **Valkey Server** locally or remotely.
 - Connection to Valkey at `localhost:6379` (modify the code if using a different host/port).
 - Install Valkey Go client:
