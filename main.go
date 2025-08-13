@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-
 	// Load env variables
 	err := godotenv.Load()
 
