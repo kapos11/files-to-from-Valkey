@@ -20,7 +20,7 @@ func main() {
 	valkeyHost := os.Getenv("VALKEY_HOST")
 
 	//select run command
-	if len(os.Args) > 0 || len(os.Args) > 4 {
+	if len(os.Args) > 0  {
 		flag := os.Args[1]
 		if flag == "-u" && len(os.Args) == 3 {
 			controller.UploadFiles(os.Args[2], valkeyHost)
