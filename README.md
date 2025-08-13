@@ -6,6 +6,9 @@ and **download** files stored in Valkey back to your local machine.
 ##  Features
 - **Upload** files from a local folder to Valkey.
 - **Download** files from Valkey to a local folder.
+  
+## ENV 
+- VALKEY_HOST = localhost:<int>
 
 ##  Requirements
 - **Go** (version 1.23 or higher).
