@@ -11,7 +11,7 @@ import (
 )
 
 func UploadFiles(dirPath string, valkeyHost string) {
-	numOfSuccFiles := 0
+	numOfSuccFiles :=0
 	context := context.Background()
 	// connect valkey
 	client, err := valkey.NewClient(valkey.ClientOption{
